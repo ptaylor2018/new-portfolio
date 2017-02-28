@@ -1,9 +1,36 @@
+/***************************
+****************************
+Reset Styles
+****************************
+***************************/
+
+@import 'normalize.css';
+
+/* change all elements to use border-box */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 #landing {
-    color: black;
-    width: 100vw;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100vh;
+    width: 100vw;
 }
 
 .name {
     color: white;
+}
+
+body {
+    padding: 0px;
 }
