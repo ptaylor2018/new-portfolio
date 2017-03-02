@@ -20,12 +20,46 @@ html {
 
 #landing {
     background-color: black;
-    top: 0;
-    left: 0;
+
     height: 100vh;
     width: 100vw;
 }
 
 .name {
     color: white;
+
+
+
+}
+
+#logo {
+    width: 40vw;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+#logoStuff {
+    display: flex;
+    align-items: center;
+}
+
+@media all and (max-width: 600px) {
+  /* We tell both sidebars to share a row */
+    #logoStuff{
+        flex-direction: column;
+    }
+    #logo {order: 1;
+
+}
+    .name-1 {order: 2;}
+    .name-2 {order: 3;}
+
 }
