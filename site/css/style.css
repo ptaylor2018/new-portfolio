@@ -41,11 +41,13 @@ global styles
 .name {
     color: white;
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 2vw;
+    font-size: 7.7294686vw;
+    margin-top: 3.74396vw;
+    font-weight: 300;
 }
 
 #logo {
-    width: 30vw;
+    width: 63.76811594vw;
 }
 
 .container-main {
@@ -58,33 +60,12 @@ global styles
 #logoStuff {
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
-
-@media all and (max-width: 600px) {
-    #logoStuff {
-        flex-direction: column;
-    }
-    #logo {
-        order: -1;
-    }
-    .name-1 {
-        order: 2;
-    }
-    .name-2 {
-        order: 3;
-    }
-    .name {
-        font-size: ;
-        margin: 0px;
-    }
-}
-
-
 
 .container-list {
     display: flex;
     justify-content: center;
-
 }
 
 .contact-link {
@@ -92,21 +73,47 @@ global styles
     font-family: 'Raleway', sans-serif;
     color: white;
     font-size: 1.5vw;
-
 }
 
 #nav {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    right: 0;
-    text-align: right;
-
+    margin-top: 6.03864734vw;
+    text-align: center;
 }
 
 .nav-item {
     font-family: 'Roboto Slab', sans-serif;
     color: gray;
-    padding: .75vw;
-    font-size: 3vw;
+    margin-bottom: 5.79710145vw;
+    font-size: 4.83091787vw;
+}
+
+@media all and (min-width: 641px) {
+    #logoStuff {
+        flex-direction: row;
+    }
+    #logo {
+        order: 1;
+        width: 28.90625vw;
+    }
+    .name-2 {
+        order: 3;
+    }
+    .name {
+        font-size: 2.734375vw;
+    }
+    #nav {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 1.953125vw;
+        top: 4.58984375vw;
+        margin-top: 0vw;
+        text-align: right;
+    }
+    .nav-item {
+        margin-bottom: 1.3671875vw;
+        font-size: 1.46484375vw;
+    }
 }
