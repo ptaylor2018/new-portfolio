@@ -31,7 +31,9 @@ global styles
  local Styles
 ****************************
 ***************************/
-
+a {
+    text-decoration: none !important;
+}
 #landing {
     background-color: black;
     height: 100vh;
@@ -65,16 +67,31 @@ global styles
 
 .container-list {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .contact-link {
     padding: .5vw;
     font-family: 'Raleway', sans-serif;
     color: white;
-    font-size: 1.5vw;
-}
+    font-size: 1.46vw;
+    width: 13vw;
+    text-align: center;
 
+   /* border-color: white;
+    border-top: 0;
+    border-bottom: 0;
+    border-right 0;
+    border-left: 0;
+
+    border-style: solid; */
+}
+.spacer{
+    background-color: white;
+    width: .2vw;
+
+}
 #nav {
     display: flex;
     flex-direction: column;
@@ -102,6 +119,7 @@ global styles
     }
     .name {
         font-size: 2.734375vw;
+        margin-top: 3vw;
     }
     #nav {
         display: flex;
