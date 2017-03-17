@@ -69,6 +69,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 5vw;
 }
 
 .contact-link {
@@ -109,6 +110,8 @@ a {
 @media all and (min-width: 641px) {
     #logoStuff {
         flex-direction: row;
+        transform: translateY(10%);
+
     }
     #logo {
         order: 1;
@@ -133,5 +136,8 @@ a {
     .nav-item {
         margin-bottom: 1.3671875vw;
         font-size: 1.46484375vw;
+    }
+    .down-arrow{
+        margin-top: 5vw;
     }
 }
