@@ -24,7 +24,9 @@ html {
 global styles
 ****************************
 ***************************/
-
+body{
+    overflow-x:hidden;
+}
 
 /***************************
 ****************************
@@ -35,9 +37,16 @@ a {
     text-decoration: none !important;
 }
 #landing {
-    background-color: black;
+
     height: 100vh;
     width: 100vw;
+    /*background-image: url(../images/background.svg);*/
+   /* background: url(../images/background.png) black;*/
+    background: url(../images/background.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .name {
@@ -65,18 +74,21 @@ a {
     flex-direction: column;
 }
 
-.container-list {
-    display: flex;
+.contact-list {
+
     flex-direction: row;
     justify-content: space-around;
     margin-top: 5vw;
+    display: none;
+
 }
 
 .contact-link {
     padding: .5vw;
     font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
     color: white;
-    font-size: 1.46vw;
+    font-size: 2vw;
     width: 13vw;
     text-align: center;
 
@@ -96,7 +108,7 @@ a {
 #nav {
     display: flex;
     flex-direction: column;
-    margin-top: 6.03864734vw;
+    margin-top: .03864734vw;
     text-align: center;
 }
 
@@ -106,8 +118,12 @@ a {
     margin-bottom: 5.79710145vw;
     font-size: 4.83091787vw;
 }
+#down-arrow {
+    height: 5vw;
+}
 
 @media all and (min-width: 641px) {
+
     #logoStuff {
         flex-direction: row;
         transform: translateY(10%);
@@ -137,7 +153,16 @@ a {
         margin-bottom: 1.3671875vw;
         font-size: 1.46484375vw;
     }
-    .down-arrow{
-        margin-top: 5vw;
+    .contact-list{
+        display: flex;
     }
+    .down-arrow{
+        position: absolute;
+        bottom: 2vw;
+    }
+    #down-arrow {
+    height: 3vw;
 }
+}
+
+
