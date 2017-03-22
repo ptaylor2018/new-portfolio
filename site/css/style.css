@@ -19,11 +19,7 @@ html {
 }
 
 
-/***************************
-****************************
-global styles
-****************************
-***************************/
+
 body{
     overflow-x:hidden;
 }
@@ -88,7 +84,7 @@ a {
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     color: white;
-    font-size: 2vw;
+    font-size: 1.4648438vw;
     width: 13vw;
     text-align: center;
 
@@ -103,7 +99,7 @@ a {
 .spacer{
     background-color: white;
     width: .2vw;
-
+    display: none;
 }
 #nav {
     display: flex;
@@ -121,7 +117,24 @@ a {
 #down-arrow {
     height: 5vw;
 }
+#about-me {
+    background-color: rgb(140,135,133);
+}
 
+.hero {
+    font-size: 55px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    color: white;
+    padding-left: 21.4975845vw;
+    padding-top: 16.666666667vw;
+}
+/***************************
+****************************
+desktop
+****************************
+***************************/
 @media all and (min-width: 641px) {
 
     #logoStuff {
@@ -137,7 +150,7 @@ a {
         order: 3;
     }
     .name {
-        font-size: 2.734375vw;
+        font-size: 3.4179688vw;
         margin-top: 3vw;
     }
     #nav {
@@ -163,6 +176,12 @@ a {
     #down-arrow {
     height: 3vw;
 }
+    .hero{
+        padding-left: ;
+        padding-top: ;
+    }
 }
+
+
 
 
