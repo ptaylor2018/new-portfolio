@@ -18,7 +18,11 @@ html {
     box-sizing: inherit;
 }
 
-
+/***************************
+****************************
+ Global Styles
+****************************
+***************************/
 
 body{
     overflow-x:hidden;
@@ -26,11 +30,15 @@ body{
 
 /***************************
 ****************************
- local Styles
+ mobile first, y'all
 ****************************
 ***************************/
+
+/***************************
+ Landing
+***************************/
 a {
-    text-decoration: none !important;
+    text-decoration: none !important; /*nothing blue or purple! no underlines!*/
 }
 #landing {
 
@@ -64,7 +72,7 @@ a {
     flex-direction: column;
 }
 
-#logoStuff {
+#logoStuff { /* name and logo*/
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -117,10 +125,13 @@ a {
 #down-arrow {
     height: 5vw;
 }
+
+/***************************
+ about
+***************************/
 #about-me {
     background-color: rgb(140,135,133);
 }
-
 .hero {
     font-size: 55px;
     font-family: 'Roboto Slab', sans-serif;
@@ -130,18 +141,56 @@ a {
     padding-left: 21.4975845vw;
     padding-top: 16.666666667vw;
 }
+.about-text{
+    color: white;
+    font-family: 'Raleway', serif;
+    font-weight: 200;
+    padding-left: 21.4975845vw;
+    padding-top: 15.70048309vw;
+    padding-bottom: 12.56038647vw;
+    padding-right: 23.67149758vw;
+    margin: 0;
+}
+/*stuff for individual topics*/
+#design-style {
+
+}
+
+#coding-style {
+
+}
+
+#stem-style {
+
+}
+
+#music-style {
+
+}
+
+#leadership-style {
+
+}
+
+#more-style {
+
+}
+
 /***************************
 ****************************
 desktop
 ****************************
 ***************************/
 @media all and (min-width: 641px) {
-
+    /***************************
+     Landing
+    ***************************/
     #logoStuff {
         flex-direction: row;
         transform: translateY(10%);
 
     }
+    /*reordered for desktop*/
     #logo {
         order: 1;
         width: 28.90625vw;
@@ -176,11 +225,18 @@ desktop
     #down-arrow {
     height: 3vw;
 }
+    /***************************
+     about
+    ***************************/
     .hero{
         padding-left: ;
         padding-top: ;
     }
 }
+
+
+
+
 
 
 
