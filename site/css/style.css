@@ -37,15 +37,13 @@ body{
 /***************************
  Landing
 ***************************/
+
 a {
     text-decoration: none !important; /*nothing blue or purple! no underlines!*/
 }
 #landing {
-
     height: 100vh;
     width: 100vw;
-    /*background-image: url(../images/background.svg);*/
-   /* background: url(../images/background.png) black;*/
     background: url(../images/background.svg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -56,7 +54,7 @@ a {
 .name {
     color: white;
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 7.7294686vw;
+    font-size: 7.7294686vw; /*there's no such thing as too many significant figures*/
     margin-top: -3.74396vw;
     font-weight: 300;
 }
@@ -79,12 +77,10 @@ a {
 }
 
 .contact-list {
-
     flex-direction: row;
     justify-content: space-around;
     margin-top: 5vw;
     display: none;
-
 }
 
 .contact-link {
@@ -95,20 +91,14 @@ a {
     font-size: 1.4648438vw;
     width: 13vw;
     text-align: center;
-
-   /* border-color: white;
-    border-top: 0;
-    border-bottom: 0;
-    border-right 0;
-    border-left: 0;
-
-    border-style: solid; */
 }
+
 .spacer{
     background-color: white;
     width: .2vw;
     display: none;
 }
+
 #nav {
     display: flex;
     flex-direction: column;
@@ -122,15 +112,16 @@ a {
     margin-bottom: 5.79710145vw;
     font-size: 4.83091787vw;
 }
+
 #down-arrow {
     height: 5vw;
 }
 
 /***************************
- about
+ about which isn't part of the mockup
 ***************************/
 #about-me {
-    background-color: rgb(140,135,133);
+    background-color: #636363;
 }
 .hero {
     font-size: 55px;
@@ -141,6 +132,7 @@ a {
     padding-left: 21.4975845vw;
     padding-top: 16.666666667vw;
 }
+
 .about-text{
     color: white;
     font-family: 'Raleway', serif;
@@ -151,25 +143,26 @@ a {
     padding-right: 23.67149758vw;
     margin: 0;
 }
+
 /*stuff for individual topics*/
 #design-style {
-
+    color: #35a7ce;
 }
 
 #coding-style {
-
+color: #EB5937;
 }
 
 #stem-style {
-
+color: #36C633;
 }
 
 #music-style {
-
+color:#770eb7;
 }
 
 #leadership-style {
-
+color:#f5c813;
 }
 
 #more-style {
@@ -226,7 +219,7 @@ desktop
     height: 3vw;
 }
     /***************************
-     about
+     about which shouldn't get graded yet
     ***************************/
     .hero{
         padding-left: ;
