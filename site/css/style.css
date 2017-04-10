@@ -118,10 +118,13 @@ a {
 }
 
 /***************************
- about which isn't part of the mockup
+ about
 ***************************/
 #about-me {
     background-color: #636363;
+    background: ; /*background image goes here*/
+    display: flex;
+    flex-direction: column;
 }
 .hero {
     font-size: 55px;
@@ -142,6 +145,7 @@ a {
     padding-bottom: 12.56038647vw;
     padding-right: 23.67149758vw;
     margin: 0;
+    font-size: 22px;
 }
 
 /*stuff for individual topics*/
@@ -221,9 +225,18 @@ desktop
     /***************************
      about which shouldn't get graded yet
     ***************************/
+
+    #about-me{
+        flex-direction: row;
+    }
     .hero{
-        padding-left: ;
-        padding-top: ;
+        padding-left: 5.7617188vw;
+        padding-top: 16.40625vw;
+    }
+    .about-text{
+        font-size: 30px;
+        padding: 0;
+        padding-top: 14.84375vw;
     }
 }
 
