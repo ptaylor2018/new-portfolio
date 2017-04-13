@@ -1,3 +1,4 @@
+/*jslint browser:true */
 $(document).ready(function(){
     $(".area-link").mouseover(function(){
         $(this).css('font-style', 'italic');
