@@ -10,8 +10,8 @@ $(document).ready(function(){
         $(this).css('font-style', 'italic');
     });
     $(".down-arrow").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#about-me").offset().top
-    }, 2000);
-});
+        $('html, body').animate({
+            scrollTop: $("#about-me").offset().top
+        }, 2000);
+    });
 });
