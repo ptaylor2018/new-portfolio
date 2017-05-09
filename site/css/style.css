@@ -171,6 +171,26 @@ color:#f5c813;
 
 #more-style {
 
+}/***************************
+Subject general things
+***************************/
+.subjectspace{
+    background-color:rgb(211,203,189);
+    height: 178.7439614vw;
+}
+.nameplate{
+
+}
+
+/***************************
+STEM
+***************************/
+#stem {
+    background-color:rgb(211,203,189);
+    height: 178.7439614vw;
+}
+#stemplate{
+
 }
 
 /***************************
@@ -292,18 +312,16 @@ desktop
     }
 
     /***************************
-     about which shouldn't get graded yet
+     about
     ***************************/
 
     #about-me{
         flex-direction: row;
-
     }
     .hero{
         padding-left: 5.7617188vw;
         padding-top: 8.40625vw;
         padding-bottom: 8.40625vw;
-
     }
     .about-text{
         font-size: 30px;
@@ -311,8 +329,40 @@ desktop
         padding-top: 12.84375vw;
         padding-bottom: 10.84375vw;
         padding-left: 10vw;;
+    }
+    /***************************
+    Subject general things
+    ***************************/
+    .subjectspace{
+        background-color:rgb(211,203,189);
+        height: 56.34765625vw;
+    }
+    .nameplate{
+        top: 6.640625vw;
+        width: 27.4414063vw;
+        height: 4.5898438vw;
+        background-color: #EB5936;
+        position: relative;
+    }
+    .triangle{
+        position: relative;
+        left: 27.4414063vw;
+        top: 2.0507812vw;
+        width: 0;
+	    height: 0;
+	    border-top: 4.5898438vw solid #eb5936;
+	    border-right: 4.5898438vw solid transparent;
+    }
+    /***************************
+    STEM
+    ***************************/
+    #stem {
 
     }
+    #stemplate{
+
+    }
+
 }
 
 
@@ -323,7 +373,3 @@ desktop
 
 
 
-#stem {
-    height: 56.34765625vw;
-    background-color:rgb(211,203,189);
-}
