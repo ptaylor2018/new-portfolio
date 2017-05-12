@@ -181,13 +181,14 @@ Subject general things
 .nameplate{
 
 }
+.section-header{
 
+}
 /***************************
 STEM
 ***************************/
 #stem {
-    background-color:rgb(211,203,189);
-    height: 178.7439614vw;
+
 }
 #stemplate{
 
@@ -328,7 +329,7 @@ desktop
         padding: 0;
         padding-top: 12.84375vw;
         padding-bottom: 10.84375vw;
-        padding-left: 10vw;;
+        padding-left: 10vw;
     }
     /***************************
     Subject general things
@@ -352,6 +353,29 @@ desktop
 	    height: 0;
 	    border-top: 4.5898438vw solid #eb5936;
 	    border-right: 4.5898438vw solid transparent;
+    }
+    .section-header{
+        color: white;
+        font-family: 'Roboto Slab', sans-serif;
+        font-weight: 300;
+        position: relative;
+        left: 15.33203125vw;
+        font-size: 3.22265625vw;
+        top: .5vw;
+    }
+    .description{
+        width: 25.5859375vw;
+        position: relative;
+        left:3.80859375vw;
+        top: 1.2vw;
+        font-family: 'Raleway', sans-serif;
+        font-size:1.5671875vw;
+    }
+    .slideshow{
+        position: relative;
+        width: 50vw;
+        top:-20vw;
+        left: 15vw;
     }
     /***************************
     STEM

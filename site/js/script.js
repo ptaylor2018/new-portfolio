@@ -7,7 +7,7 @@ $(document).ready(function(){
     $(".area-link").mouseout(function(){
         $(this).css('font-style', '');
     });
-    $("p").mouseover(function(){
+    $(".are-link").mouseover(function(){
         $(this).css('font-style', 'italic');
     });
     //scroll down
@@ -16,4 +16,5 @@ $(document).ready(function(){
             scrollTop: $("#about-me").offset().top
         }, 2000);
     });
+
 });
