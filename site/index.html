@@ -65,18 +65,88 @@
         <div class="nameplate" id=stemplate><h1 class="section-header">STEM</h1></div>
         <div class="triangle"></div>
         <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quod, cum explicabo laborum, aliquam dicta quia quam et provident repellendus placeat, nihil fugit veritatis accusamus atque error dolores consequatur dolorem!</p>
+        <a href=""><div class="subsection_button subsection_button_stem">Robotics</div></a>
+        <a href=""><div class="subsection_button subsection_button_stem">Math Modeling</div></a>
+        <a href=""><div class="subsection_button subsection_button_stem">Junior Research</div></a>
+        <a href=""><div class="subsection_button subsection_button_stem">Cutting Up Cake</div></a>
         </div>
         <div class="w3-content w3-display-container slideshow">
-         <img class="mySlides" src="images/worlds1.png" style="width:100%">
-          <img class="mySlides" src="images/vex.jpg" style="width:100%">
+            <img class="mySlides_stem" src="images/shook.jpg" style="width:100%">
+            <img class="mySlides_stem" src="images/winning.jpg" style="width:100%">
+            <img class="mySlides_stem" src="images/vex.jpg" style="width:100%">
+            <img class="mySlides_stem" src="images/playing_field.jpg" style="width:100%">
 
-          <img class="mySlides" src="img_mountains.jpg" style="width:100%">
-          <img class="mySlides" src="img_forest.jpg" style="width:100%">
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs_stem(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs_stem(1)">&#10095;</button>
+        </div>
+        <script>
+            var slideIndex_stem = 1;
+            showDivs_stem(slideIndex_stem);
 
-          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            function plusDivs_stem(n) {
+                showDivs_stem(slideIndex_stem += n);
+            }
+
+            function showDivs_stem(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides_stem");
+                    if (n > x.length) {
+                        slideIndex_stem = 1;
+                    }
+                if (n < 1) {
+                    slideIndex_stem = x.length;
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex_stem-1].style.display = "block";
+            }
+        </script>
+    </div>
+
+    <div class="subjectspace" id="stem">
+        <div class="nameplate" id=stemplate><h1 class="section-header">STEM</h1></div>
+        <div class="triangle"></div>
+        <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quod, cum explicabo laborum, aliquam dicta quia quam et provident repellendus placeat, nihil fugit veritatis accusamus atque error dolores consequatur dolorem!</p>
+        <a href=""><div class="subsection_button">Robotics</div></a>
+        <a href=""><div class="subsection_button">Math Modeling</div></a>
+        <a href=""><div class="subsection_button">Junior Research</div></a>
+        <a href=""><div class="subsection_button">Cutting Up Cake</div></a>
         </div>
 
+        <div class="w3-content w3-display-container slideshow">
+            <img class="mySlides" src="images/shook.jpg" style="width:100%">
+            <img class="mySlides" src="images/winning.jpg" style="width:100%">
+            <img class="mySlides" src="images/vex.jpg" style="width:100%">
+            <img class="mySlides" src="images/playing_field.jpg" style="width:100%">
+
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs_music(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs_music(1)">&#10095;</button>
+          <div></div>
+        </div>
+        <script>
+            var slideIndex_music = 1;
+            showDivs_stem(slideIndex_music);
+
+            function plusDivs_music(n) {
+                showDivs_stem(slideIndex_music += n);
+            }
+
+            function showDivs_music(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides_music");
+                    if (n > x.length) {
+                        slideIndex_music = 1;
+                    }
+                if (n < 1) {
+                    slideIndex_music = x.length;
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex_music-1].style.display = "block";
+            }
+        </script>
     </div>
     <p>words</p>
 </body>
