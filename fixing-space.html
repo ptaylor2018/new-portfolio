@@ -1,0 +1,46 @@
+    <div class="subjectspace" id="leadership">
+        <div class="nameplate" id=leadershipplate><h1 class="section-header">leadership</h1></div>
+        <div class="triangle" id ="leadershiptriangle"></div>
+        <div>
+        <div class="text_leadership">
+        <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quod, cum explicabo laborum, aliquam dicta quia quam et provident repellendus placeat, nihil fugit veritatis accusamus atque error dolores consequatur dolorem!</p>
+        <a href=""><div class="subsection_button subsection_button_leadership">Robotics</div></a>
+        <a href=""><div class="subsection_button subsection_button_leadership">Math Modeling</div></a>
+        <a href=""><div class="subsection_button subsection_button_leadership">Junior Research</div></a>
+        <a href=""><div class="subsection_button subsection_button_leadership">Cutting Up Cake</div></a>
+        </div>
+        </div>
+        <div class="w3-content w3-display-container slideshow image_leadership">
+            <img class="mySlides_leadership" src="images/shook.jpg" style="width:100%">
+            <img class="mySlides_leadership" src="images/winning.jpg" style="width:100%">
+            <img class="mySlides_leadership" src="images/vex.jpg" style="width:100%">
+            <img class="mySlides_leadership" src="images/playing_field.jpg" style="width:100%">
+
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs_leadership(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs_leadership(1)">&#10095;</button>
+        </div>
+        <script>
+            var slideIndex_leadership = 1;
+            showDivs_leadership(slideIndex_leadership);
+
+            function plusDivs_leadership(n) {
+                showDivs_leadership(slideIndex_leadership += n);
+            }
+
+            function showDivs_leadership(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides_leadership");
+                    if (n > x.length) {
+                        slideIndex_leadership = 1;
+                    }
+                if (n < 1) {
+                    slideIndex_leadership = x.length;
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex_leadership-1].style.display = "block";
+            }
+        </script>
+        </div>
+    </div>

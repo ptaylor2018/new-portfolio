@@ -61,16 +61,114 @@
         <br />Dive right in.</h2>
         </div>
     </div>
+
+    <div class="subjectspace" id="design">
+        <div class="nameplate" id=designplate><h1 class="section-header">Design</h1></div>
+        <div class="triangle" id ="designtriangle"></div>
+        <div>
+        <div class="text_design">
+        <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quod, cum explicabo laborum, aliquam dicta quia quam et provident repellendus placeat, nihil fugit veritatis accusamus atque error dolores consequatur dolorem!</p>
+        <a href=""><div class="subsection_button subsection_button_design">Robotics</div></a>
+        <a href=""><div class="subsection_button subsection_button_design">Math Modeling</div></a>
+        <a href=""><div class="subsection_button subsection_button_design">Junior Research</div></a>
+        <a href=""><div class="subsection_button subsection_button_design">Cutting Up Cake</div></a>
+        </div>
+        </div>
+        <div class="w3-content w3-display-container slideshow image_design">
+            <img class="mySlides_design" src="images/shook.jpg" style="width:100%">
+            <img class="mySlides_design" src="images/winning.jpg" style="width:100%">
+            <img class="mySlides_design" src="images/vex.jpg" style="width:100%">
+            <img class="mySlides_design" src="images/playing_field.jpg" style="width:100%">
+
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs_design(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs_design(1)">&#10095;</button>
+        </div>
+        <script>
+            var slideIndex_design = 1;
+            showDivs_design(slideIndex_design);
+
+            function plusDivs_design(n) {
+                showDivs_design(slideIndex_design += n);
+            }
+
+            function showDivs_design(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides_design");
+                    if (n > x.length) {
+                        slideIndex_design = 1;
+                    }
+                if (n < 1) {
+                    slideIndex_design = x.length;
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex_design-1].style.display = "block";
+            }
+        </script>
+        </div>
+    </div>
+
+    <div class="subjectspace" id="coding">
+        <div class="nameplate" id=codingplate><h1 class="section-header">Coding</h1></div>
+        <div class="triangle" id ="codingtriangle"></div>
+        <div>
+        <div class="text_coding">
+        <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quod, cum explicabo laborum, aliquam dicta quia quam et provident repellendus placeat, nihil fugit veritatis accusamus atque error dolores consequatur dolorem!</p>
+        <a href=""><div class="subsection_button subsection_button_coding">Robotics</div></a>
+        <a href=""><div class="subsection_button subsection_button_coding">Math Modeling</div></a>
+        <a href=""><div class="subsection_button subsection_button_coding">Junior Research</div></a>
+        <a href=""><div class="subsection_button subsection_button_coding">Cutting Up Cake</div></a>
+        </div>
+        </div>
+        <div class="w3-content w3-display-container slideshow image_coding">
+            <img class="mySlides_coding" src="images/shook.jpg" style="width:100%">
+            <img class="mySlides_coding" src="images/winning.jpg" style="width:100%">
+            <img class="mySlides_coding" src="images/vex.jpg" style="width:100%">
+            <img class="mySlides_coding" src="images/playing_field.jpg" style="width:100%">
+
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs_coding(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs_coding(1)">&#10095;</button>
+        </div>
+        <script>
+            var slideIndex_coding = 1;
+            showDivs_coding(slideIndex_coding);
+
+            function plusDivs_coding(n) {
+                showDivs_coding(slideIndex_coding += n);
+            }
+
+            function showDivs_coding(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides_coding");
+                    if (n > x.length) {
+                        slideIndex_coding = 1;
+                    }
+                if (n < 1) {
+                    slideIndex_coding = x.length;
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex_coding-1].style.display = "block";
+            }
+        </script>
+        </div>
+    </div>
+
     <div class="subjectspace" id="stem">
         <div class="nameplate" id=stemplate><h1 class="section-header">STEM</h1></div>
-        <div class="triangle"></div>
+        <div class="triangle" id ="stemtriangle"></div>
+        <div>
+        <div class="text_stem">
         <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quod, cum explicabo laborum, aliquam dicta quia quam et provident repellendus placeat, nihil fugit veritatis accusamus atque error dolores consequatur dolorem!</p>
         <a href=""><div class="subsection_button subsection_button_stem">Robotics</div></a>
         <a href=""><div class="subsection_button subsection_button_stem">Math Modeling</div></a>
         <a href=""><div class="subsection_button subsection_button_stem">Junior Research</div></a>
         <a href=""><div class="subsection_button subsection_button_stem">Cutting Up Cake</div></a>
         </div>
-        <div class="w3-content w3-display-container slideshow">
+        </div>
+        <div class="w3-content w3-display-container slideshow image_stem">
             <img class="mySlides_stem" src="images/shook.jpg" style="width:100%">
             <img class="mySlides_stem" src="images/winning.jpg" style="width:100%">
             <img class="mySlides_stem" src="images/vex.jpg" style="width:100%">
@@ -102,34 +200,36 @@
                 x[slideIndex_stem-1].style.display = "block";
             }
         </script>
+        </div>
     </div>
 
-    <div class="subjectspace" id="stem">
-        <div class="nameplate" id=stemplate><h1 class="section-header">STEM</h1></div>
-        <div class="triangle"></div>
+    <div class="subjectspace" id="music">
+        <div class="nameplate" id=musicplate><h1 class="section-header">Music</h1></div>
+        <div class="triangle" id ="musictriangle"></div>
+        <div>
+        <div class="text_music">
         <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quod, cum explicabo laborum, aliquam dicta quia quam et provident repellendus placeat, nihil fugit veritatis accusamus atque error dolores consequatur dolorem!</p>
-        <a href=""><div class="subsection_button">Robotics</div></a>
-        <a href=""><div class="subsection_button">Math Modeling</div></a>
-        <a href=""><div class="subsection_button">Junior Research</div></a>
-        <a href=""><div class="subsection_button">Cutting Up Cake</div></a>
-        </div>
+        <a href=""><div class="subsection_button subsection_button_music">Marching Band</div></a>
+        <a href=""><div class="subsection_button subsection_button_music">Indoor Percussion</div></a>
+        <a href=""><div class="subsection_button subsection_button_music">Symphonic Band</div></a>
 
-        <div class="w3-content w3-display-container slideshow">
-            <img class="mySlides" src="images/shook.jpg" style="width:100%">
-            <img class="mySlides" src="images/winning.jpg" style="width:100%">
-            <img class="mySlides" src="images/vex.jpg" style="width:100%">
-            <img class="mySlides" src="images/playing_field.jpg" style="width:100%">
+        </div>
+        </div>
+        <div class="w3-content w3-display-container slideshow image_music">
+            <img class="mySlides_music" src="images/shook.jpg" style="width:100%">
+            <img class="mySlides_music" src="images/winning.jpg" style="width:100%">
+            <img class="mySlides_music" src="images/vex.jpg" style="width:100%">
+            <img class="mySlides_music" src="images/playing_field.jpg" style="width:100%">
 
           <button class="w3-button w3-black w3-display-left" onclick="plusDivs_music(-1)">&#10094;</button>
           <button class="w3-button w3-black w3-display-right" onclick="plusDivs_music(1)">&#10095;</button>
-          <div></div>
         </div>
         <script>
             var slideIndex_music = 1;
-            showDivs_stem(slideIndex_music);
+            showDivs_music(slideIndex_music);
 
             function plusDivs_music(n) {
-                showDivs_stem(slideIndex_music += n);
+                showDivs_music(slideIndex_music += n);
             }
 
             function showDivs_music(n) {
@@ -147,6 +247,54 @@
                 x[slideIndex_music-1].style.display = "block";
             }
         </script>
+        </div>
+    </div>
+
+    <div class="subjectspace" id="leadership">
+        <div class="nameplate" id=leadershipplate><h1 class="section-header" id="leader-header">Leadership</h1></div>
+        <div class="triangle" id ="leadershiptriangle"></div>
+        <div>
+        <div class="text_leadership">
+        <div class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quod, cum explicabo laborum, aliquam dicta quia quam et provident repellendus placeat, nihil fugit veritatis accusamus atque error dolores consequatur dolorem!</p>
+        <a href=""><div class="subsection_button subsection_button_leadership">Robotics</div></a>
+        <a href=""><div class="subsection_button subsection_button_leadership">Math Modeling</div></a>
+        <a href=""><div class="subsection_button subsection_button_leadership">Junior Research</div></a>
+        <a href=""><div class="subsection_button subsection_button_leadership">Cutting Up Cake</div></a>
+        </div>
+        </div>
+        <div class="w3-content w3-display-container slideshow image_leadership">
+            <img class="mySlides_leadership" src="images/shook.jpg" style="width:100%">
+            <img class="mySlides_leadership" src="images/winning.jpg" style="width:100%">
+            <img class="mySlides_leadership" src="images/vex.jpg" style="width:100%">
+            <img class="mySlides_leadership" src="images/playing_field.jpg" style="width:100%">
+
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs_leadership(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs_leadership(1)">&#10095;</button>
+        </div>
+        <script>
+            var slideIndex_leadership = 1;
+            showDivs_leadership(slideIndex_leadership);
+
+            function plusDivs_leadership(n) {
+                showDivs_leadership(slideIndex_leadership += n);
+            }
+
+            function showDivs_leadership(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides_leadership");
+                    if (n > x.length) {
+                        slideIndex_leadership = 1;
+                    }
+                if (n < 1) {
+                    slideIndex_leadership = x.length;
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex_leadership-1].style.display = "block";
+            }
+        </script>
+        </div>
     </div>
     <p>words</p>
 </body>

@@ -179,21 +179,96 @@ Subject general things
     height: 178.7439614vw;
 }
 .nameplate{
+    top: 6.640625vw;
+    width: 50.24154589vw;
+    height: 11.111111111vw;
 
+    position: relative;
+}
+.triangle{
+    position: relative;
+    left: 50.24154589vw;
+    top: -4.6vw;
+    width: 0;
+    height: 0;
+
+    border-right: 11.111111111vw solid transparent;
 }
 .section-header{
+    color: white;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 300;
+    position: relative;
+    left: 15.33203125vw;
+    font-size: 7.97101449vw;
+    top: .5vw;
+}
+.description{
+    width: 59.90338164vw;
+    position: relative;
+    left: 17.39130435vw;
+    top: 1.2vw;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4.10628019vw;
+}
+.subsection_button{
+    background-color: black;
+    color: white;
+    margin-bottom: 1vw;
+}
+.slideshow{
+    position: relative;
+    width: 100vw;
 
+}
+/***************************
+design
+***************************/
+#designplate{
+    background-color: #EB5936;
+}
+#designtriangle{
+    border-top: 11.111111111vw solid #eb5936;
+}
+/***************************
+coding
+***************************/
+#codingplate{
+    background-color: #EB5936;
+}
+#codingtriangle{
+    border-top: 11.111111111vw solid #eb5936;
 }
 /***************************
 STEM
 ***************************/
-#stem {
-
-}
 #stemplate{
-
+    background-color: #EB5936;
 }
-
+#stemtriangle{
+    border-top: 11.111111111vw solid #eb5936;
+}
+/***************************
+Music
+***************************/
+#musicplate{
+    background-color: #770eb7;
+}
+#musictriangle{
+    border-top: 11.111111111vw solid #770eb7;
+}
+/***************************
+leadership
+***************************/
+#leadershipplate{
+    background-color: #EB5936;
+}
+#leadershiptriangle{
+    border-top: 11.111111111vw solid #eb5936;
+}
+#leader-header{
+    left:8.5vw;
+}
 /***************************
 ****************************
 desktop
@@ -342,7 +417,7 @@ desktop
         top: 6.640625vw;
         width: 27.4414063vw;
         height: 4.5898438vw;
-        background-color: #EB5936;
+
         position: relative;
     }
     .triangle{
@@ -351,7 +426,7 @@ desktop
         top: 2.0507812vw;
         width: 0;
 	    height: 0;
-	    border-top: 4.5898438vw solid #eb5936;
+
 	    border-right: 4.5898438vw solid transparent;
     }
     .section-header{
@@ -363,6 +438,7 @@ desktop
         font-size: 3.22265625vw;
         top: .5vw;
     }
+
     .description{
         width: 25.5859375vw;
         position: relative;
@@ -382,16 +458,52 @@ desktop
         top: -35vw;
         left: 15vw;
     }
+
+    /***************************
+    design
+    ***************************/
+    #designplate{
+        background-color: #EB5936;
+    }
+    #designtriangle{
+        border-top: 4.5898438vw solid #eb5936;
+    }
+    /***************************
+    coding
+    ***************************/
+    #codingplate{
+        background-color: #EB5936;
+    }
+    #codingtriangle{
+        border-top: 4.5898438vw solid #eb5936;
+    }
     /***************************
     STEM
     ***************************/
-    #stem {
-
-    }
     #stemplate{
-
+        background-color: #EB5936;
     }
-
+    #stemtriangle{
+        border-top: 4.5898438vw solid #eb5936;
+    }
+    /***************************
+    Music
+    ***************************/
+    #musicplate{
+        background-color: #770eb7;
+    }
+    #musictriangle{
+        border-top: 4.5898438vw solid #770eb7;
+    }
+    /***************************
+    leadership
+    ***************************/
+    #leadershipplate{
+        background-color: #EB5936;
+    }
+    #leadershiptriangle{
+        border-top: 4.5898438vw solid #eb5936;
+    }
 }
 
 
