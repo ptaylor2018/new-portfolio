@@ -154,19 +154,19 @@ a {
 }
 
 #coding-style {
-color: #EB5937;
+    color: #EB5937;
 }
 
 #stem-style {
-color: #36C633;
+    color: #36C633;
 }
 
 #music-style {
-color:#770eb7;
+    color:#770eb7;
 }
 
 #leadership-style {
-color:#f5c813;
+    color:#f5c813;
 }
 
 #more-style {
@@ -175,7 +175,7 @@ color:#f5c813;
 Subject general things
 ***************************/
 .subjectspace{
-    background-color:rgb(211,203,189);
+
     height: 178.7439614vw;
 }
 .nameplate{
@@ -224,33 +224,45 @@ Subject general things
 /***************************
 design
 ***************************/
+#design{
+    background-color: #D3CCC1;
+}
 #designplate{
-    background-color: #EB5936;
+    background-color: #35a7ce;
 }
 #designtriangle{
-    border-top: 11.111111111vw solid #eb5936;
+    border-top: 11.111111111vw solid #35a7ce;
 }
 /***************************
 coding
 ***************************/
+#coding{
+    background-color: #C9C1B5;
+}
 #codingplate{
-    background-color: #EB5936;
+    background-color: #EB5937;
 }
 #codingtriangle{
-    border-top: 11.111111111vw solid #eb5936;
+    border-top: 11.111111111vw solid #EB5937;
 }
 /***************************
 STEM
 ***************************/
+#stem{
+    background-color:#C6BFB5;
+}
 #stemplate{
-    background-color: #EB5936;
+    background-color: #36C633;
 }
 #stemtriangle{
-    border-top: 11.111111111vw solid #eb5936;
+    border-top: 11.111111111vw solid #36C633;
 }
 /***************************
 Music
 ***************************/
+#music{
+    background-color:#938D85;
+}
 #musicplate{
     background-color: #770eb7;
 }
@@ -260,11 +272,14 @@ Music
 /***************************
 leadership
 ***************************/
+#leadership{
+    background-color:#938D85;
+}
 #leadershipplate{
-    background-color: #EB5936;
+    background-color: #f5c813;
 }
 #leadershiptriangle{
-    border-top: 11.111111111vw solid #eb5936;
+    border-top: 11.111111111vw solid #f5c813;;
 }
 #leader-header{
     left:8.5vw;
@@ -410,7 +425,7 @@ desktop
     Subject general things
     ***************************/
     .subjectspace{
-        background-color:rgb(211,203,189);
+
         height: 56.34765625vw;
     }
     .nameplate{
@@ -463,16 +478,16 @@ desktop
     design
     ***************************/
     #designplate{
-        background-color: #EB5936;
+
     }
     #designtriangle{
-        border-top: 4.5898438vw solid #eb5936;
+        border-top: 4.5898438vw solid #35a7ce;
     }
     /***************************
     coding
     ***************************/
     #codingplate{
-        background-color: #EB5936;
+
     }
     #codingtriangle{
         border-top: 4.5898438vw solid #eb5936;
@@ -481,16 +496,16 @@ desktop
     STEM
     ***************************/
     #stemplate{
-        background-color: #EB5936;
+
     }
     #stemtriangle{
-        border-top: 4.5898438vw solid #eb5936;
+        border-top: 4.5898438vw solid #36C633;
     }
     /***************************
     Music
     ***************************/
     #musicplate{
-        background-color: #770eb7;
+
     }
     #musictriangle{
         border-top: 4.5898438vw solid #770eb7;
@@ -499,10 +514,10 @@ desktop
     leadership
     ***************************/
     #leadershipplate{
-        background-color: #EB5936;
+
     }
     #leadershiptriangle{
-        border-top: 4.5898438vw solid #eb5936;
+        border-top: 4.5898438vw solid #f5c813;
     }
 }
 
