@@ -27,7 +27,9 @@ html {
 body{
     overflow-x:hidden;
 }
-
+.button{
+    background-color: black;
+}
 /***************************
 ****************************
  mobile first, y'all
@@ -91,6 +93,7 @@ a {
     font-size: 1.4648438vw;
     width: 13vw;
     text-align: center;
+    display: block;
 }
 
 .spacer{
@@ -355,8 +358,8 @@ desktop
         display: flex;
     }
     .down-arrow{
-        position: absolute;
-        bottom: 2vw;
+        position: relative;
+        bottom: -5vw;
     }
     #down-arrow {
     height: 3vw;

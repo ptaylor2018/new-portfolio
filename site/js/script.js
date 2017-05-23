@@ -11,7 +11,7 @@ $(document).ready(function(){
     //scroll down
     $(".down-arrow").click(function() {
         $('html, body').animate({
-            scrollTop: $("#about-me").offset().top
+            scrollTop: $("#about-me").offset(20).top
         }, 2000);
     });
     //fix image order on mobile
@@ -32,19 +32,19 @@ $(document).ready(function(){
     }
     //buttons
     $(".subsection_button_design").mouseover(function(){
-        $(this).css('background-color', '');
+        $(this).css('background-color', '#35a7ce');
     });
     $(".subsection_button_coding").mouseover(function(){
-        $(this).css('background-color', '');
+        $(this).css('background-color', '#EB5937');
     });
     $(".subsection_button_stem").mouseover(function(){
-        $(this).css('background-color', '#eb5936');
+        $(this).css('background-color', '#36C633');
     });
     $(".subsection_button_music").mouseover(function(){
         $(this).css('background-color', '#770eb7');
     });
     $(".subsection_button_leadership").mouseover(function(){
-        $(this).css('background-color', '');
+        $(this).css('background-color', '#f5c813');
     });
 
     $(".subsection_button").mouseout(function(){
