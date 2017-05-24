@@ -1,5 +1,7 @@
 /*jslint browser:true */
 $(document).ready(function(){
+    reorder();
+
     //add hover effect to links in about section
     $(".area-link").mouseover(function(){
         $(this).css('font-style', 'italic');
@@ -37,7 +39,7 @@ $(document).ready(function(){
         $(this).css('background-color', '#000000');
     });
 });
-reorder = function(
+function reorder(){
 if($(window).width() < 641){
         $(".image_design").insertBefore(".text_design");
     }
@@ -53,4 +55,4 @@ if($(window).width() < 641){
     if($(window).width() < 641){
         $(".image_leadership").insertBefore(".text_leadership");
     }
-)
+}
