@@ -10,6 +10,7 @@ Reset Styles
 
 html {
     box-sizing: border-box;
+
 }
 
 *,
@@ -25,7 +26,8 @@ html {
 ***************************/
 
 body{
-    overflow-x:hidden;
+    overflow:hidden;
+
 }
 .button{
     background-color: black;
@@ -550,5 +552,40 @@ desktop
 .mySlides {
     object-fit: contain;
     max-height:100%;
-     max-width:100%;
+    max-width:100%;
+}
+#contact-zone{
+    background-color: black;
+}
+.contact-hero{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    color: white;
+    padding-top: 5vw;
+}
+#email-button{
+    margin: auto;
+    width: 150px;
+    height: 80px;
+    display: block;
+
+}
+.elsewhere{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.elsebox{
+    width:100px;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+}
+.elsetext{
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: -2vw;
 }
