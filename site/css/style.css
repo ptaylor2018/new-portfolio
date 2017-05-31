@@ -213,6 +213,7 @@ Subject general things
     top: 1.2vw;
     font-family: 'Raleway', sans-serif;
     font-size: 4.10628019vw;
+    height: 30vw;
 }
 .subsection_button{
     background-color: black;
@@ -222,6 +223,7 @@ Subject general things
 .slideshow{
     position: relative;
     width: 100vw;
+    height: 30vw;
 
 }
 .spacer-2{
@@ -501,7 +503,7 @@ desktop
 
     }
     #codingtriangle{
-        border-top: 4.5898438vw solid #eb5936;
+        border-top: 4.5898438vw solid #d13419;
     }
     /***************************
     STEM
@@ -540,3 +542,13 @@ desktop
 
 
 
+
+.mySlides_coding {
+
+}
+
+.mySlides {
+    object-fit: contain;
+    max-height:100%;
+     max-width:100%;
+}
