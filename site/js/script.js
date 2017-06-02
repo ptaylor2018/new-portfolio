@@ -40,19 +40,37 @@ $(document).ready(function(){
     });
 });
 function reorder(){
-if($(window).width() < 641){
+if($(window).width() <= 460){
         $(".image_design").insertBefore(".text_design");
     }
-    if($(window).width() < 641){
+    else{
+        $(".image_design").insertAfter(".text_design");
+    }
+    if($(window).width() <= 460){
         $(".image_coding").insertBefore(".text_coding");
     }
-    if($(window).width() < 641){
+    else{
+        $(".image_coding").insertAfter(".text_coding");
+    }
+    if($(window).width() <= 460){
         $(".image_stem").insertBefore(".text_stem");
     }
-    if($(window).width() < 641){
+    else{
+        $(".image_stem").insertAfter(".text_stem");
+    }
+    if($(window).width() <= 460){
         $(".image_music").insertBefore(".text_music");
     }
-    if($(window).width() < 641){
+    else{
+        $(".image_music").insertAfter(".text_music");
+    }
+    if($(window).width() <= 460){
         $(".image_leadership").insertBefore(".text_leadership");
     }
+    else{
+        $(".image_leadership").insertAfter(".text_leadership");
+    }
 }
+$(window).resize(function() {
+    reorder();
+});

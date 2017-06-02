@@ -193,7 +193,7 @@ Subject general things
 .triangle{
     position: relative;
     left: 50.24154589vw;
-    top: -4.6vw;
+    top: -4.45vw;
     width: 0;
     height: 0;
 
@@ -224,7 +224,7 @@ Subject general things
 }
 .slideshow{
     position: relative;
-    width: 100vw;
+    width: 95vw;
     height: 30vw;
 
 }
@@ -302,7 +302,7 @@ leadership
 desktop
 ****************************
 ***************************/
-@media all and (min-width: 641px) {
+@media all and (min-width: 460px) {
     /***************************
      Landing
     ***************************/
@@ -484,7 +484,7 @@ desktop
         position: relative;
         width: 50vw;
         top: -35vw;
-        left: 15vw;
+        left: 20vw;
     }
     .spacer-2{
         height: 3vw;
@@ -577,15 +577,16 @@ desktop
    display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 11px;
 }
 .elsebox{
-    width:100px;
-    height: 100px;
+    width:120px;
+    height: 105px;
     background-color: white;
     margin: 10px;
 }
 .elsetext{
     font-family: 'Raleway', sans-serif;
     position: relative;
-    top: -2vw;
+    top: -13px;
 }
